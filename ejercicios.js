@@ -55,13 +55,13 @@ alert(calculadora(operador_promp, valor1_promp,valor2_promp));
 function calculadora(operador, valor1, valor2){
     var retorno;
 
-    if(operador == "resta"){
+    if(operador == "-"){
         retorno = parseInt(valor1) - parseInt(valor2);
 
-    }else if (operador == "suma"){
+    }else if (operador == "+"){
         retorno = parseInt(valor1) + parseInt(valor2);
 
-    }else if(operador == "multiplicar"){
+    }else if(operador == "*"){
         retorno = parseInt(valor1) * parseInt(valor2);
 
     }else{
